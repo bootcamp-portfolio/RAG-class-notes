@@ -1,0 +1,34 @@
+# Local environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Local vector stores and indexes
+chroma_db/
+chroma/
+faiss_storage/
+saved_index/
+storage/
+vector_store/
+vectorstore/
+vector_db/
+vectordb/
+lancedb/
+qdrant_storage/
+milvus_data/
+weaviate_data/
+
+# Common vector index/database artifacts
+*.faiss
+*.index
+*.hnsw
+*.ann
+chroma.sqlite3
